@@ -1,0 +1,136 @@
+@import url('http://fonts.googleapis.com/css?family=Lato:100,200,300,400,bold');
+
+.button {
+	position: relative;
+	width: 200px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	display: inline-block;
+	color: white;
+	cursor: pointer;
+	background: #6A5ACD;
+	font-family: Lato, sans-serif;
+	font-weight: 300;
+	font-size: 25px;
+	/*margin:-4px*/
+	/*margin-left: 5%;*/
+/*	padding: 10px 15px;
+	margin: 15px 0;*/
+}
+
+.button1 {
+	position: relative;
+	width: 120px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	display: inline-block;
+	color: black;
+	cursor: pointer;
+	background: #6A5ACD;
+	font-family: Lato, sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	/*margin-left: 5%;*/
+/*	padding: 10px 15px;
+	margin: 15px 0;*/
+}
+
+#photographyButton {
+	width: 180px;
+}
+
+
+.top-row {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	background: #6A5ACD;
+}
+
+.button1:hover {
+	background: #D8BFD8;
+	text-decoration:none;
+	margin: auto;
+}
+
+#photographyButton:hover {
+	background: #D8BFD8;
+}
+
+.educationAbout {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.links {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.resume {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.fl_left {
+	margin-left: 15px;
+	font-size: 17px;
+	font-family: Lato, sans-serif;
+	font-weight: 300;
+}
+
+.aboutHeader {
+	font-size: 25px;
+	font-weight: 400;
+}
+
+.personalMilestoneHeader {
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.milestoneText {
+	margin-left: 20px;
+	font-size: 17px;
+	font-family: Lato, sans-serif;
+	font-weight: 300;
+}
+
+.photographyFormatText {
+	margin-left: 30px;
+	font-size: 25px;
+	font-family: Lato, sans-serif;
+	font-weight: 400;
+}
+
+/* Taken from http://www.dwuser.com/education/content/creating-a-jquery-image-scroller/ */
+
+#scroller {
+    position: relative;
+}
+
+#scroller .innerScrollArea {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+#scroller ul {
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+/* remove the default padding, margin and list bullets. */
+#scroller li {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    position: absolute;
+}
