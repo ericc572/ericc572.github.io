@@ -64,6 +64,11 @@
 	font-weight: bold;
 }
 
+.avatar {
+	width: 50%;
+	height: 50%;
+	display: inline-block;
+}
 .resume {
 	font-size: 25px;
 	font-weight: bold;
