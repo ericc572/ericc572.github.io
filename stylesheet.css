@@ -1,6 +1,6 @@
 @import url('http://fonts.googleapis.com/css?family=Lato:100,200,300,400,bold');
 
-body {
+.body {
 	background-image: url("Beach.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
